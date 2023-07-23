@@ -5,9 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="imageP">
+        <div class="title">
+            <img class="logo" src="img/odin-lined.png" alt="Logo">
+            <h1>I Will win</h1>
+        </div>
+    </div>
+    <section class="important">
+        <div class="warning">
+            <p>This is not a real online service! 
+                You know you need something like this in your 
+                life to hlep ypu realize your deepest dreams.
+                Sign up <span>now</span> to get started.
+                <br>
+                You <span>know</span> you want to.
+            </p>
+        </div>
+        <form action="">
+            <legend>Let's do this!</legend>
+
+            <div class="formcontainer">
+
+                <div class="part">
+                <label for="name">First Name</label>
+                <input type="text" id="name">
+                </div>
+                
+                <div class="part">
+                <label for="lastname">Last Name</label>
+                <input type="text">
+                </div>
+
+                <div class="part">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                </div>
+
+                <div class="part">
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" id="phone">
+                </div>
+
+                <div class="part">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+                </div>
+
+                <div class="part">
+                <label for="confirm">Confirm Password</label>
+                <input type="password" name="confirm" id="confirm">
+                </div>
+            </div>    
+        </form>
+        <div class="bottom">
+            
+        </div>
+    </section>
 
     <script src="app.js"></script>
 </body>
